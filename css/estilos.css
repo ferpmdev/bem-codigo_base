@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f6fe;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+.container__cards {
+  margin: 70px 0;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.card__thumbnail {
+  width: 650px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__h3 {
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.card__a {
+  color: rgb(111, 52, 207);
+}
+
+.card__extract {
+  line-height: 28px;
+  color: #797979;
+  margin-bottom: 20px;
+}
+
+.button {
+  border: none;
+  min-width: 180px;
+  height: 50px;
+  padding: 0 30px;
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.8s ease all;
+  background: rgb(111, 52, 207);
+}
+
+.button__text {
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+
+.button:hover {
+  text-decoration: none;
+  background: rgb(77, 35, 146);
+}
+
+.button--absolute {
+  position: absolute;
+  right: 20px;
+  bottom: -25px;
+}
+
+.button--red {
+  background: rgb(207, 52, 52);
+}
+
+.button--red:hover {
+  background: rgb(146, 35, 50);
+}
+
+.button--green {
+  background: rgb(57, 136, 57);
+}
+
+.button--green:hover {
+  background: rgb(38, 110, 38);
+}
+
+.pharagraph {
+  text-align: center;
+  margin: 70px 0;
+}
+
+.pharagraph__h2 {
+  font-family: Raleway, sans-serif;
+  font-style: italic;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
